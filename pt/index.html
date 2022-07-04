@@ -20,7 +20,7 @@
   <header>
     <div class="header">
       <div class="logo">
-        <a href="./"><img id="logoImg" src="../src/img/logo-light-no-bg.png" alt="logo" width="220" /></a>
+        <a href="./"><img id="logoImg" src="../src/img/logo-light-no-bg.png" alt="logo" width="280" /></a>
       </div>
       <div class="topMenu">
         <ul>
@@ -32,7 +32,7 @@
         </ul>
         <div class="idioma">
           <ul>
-            <li><a href="../en/">EN</a></li>
+            <li><a href="#english">EN</a></li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,6 @@
           <a class="navLink burg" href="#reservationContent">Reservas</a>
           <a class="navLink burg" href="#servicesContent">Serviços</a>
           <a class="navLink burg" href="#contactsContent">Contacto</a>
-          <a class="navLink burg" href="/login/">Login</a>
         </nav>
       </div>
     </div>
@@ -66,13 +65,10 @@
          <div id="slide-window">
           <ol id="slides" start="1">
             <li class="slide color-0 alive" style="background-image:url(../src/img/slide1.jpg);">
-              <h1>Molho suspeito, com comida de pinto</h1>
             </li>
-            <li class="slide color-1" style="background-image:url(../src/img/slide2.webp);">
-              <h1>Parte externa da nossa sede principal</h1>
+            <li class="slide color-1" style="background-image:url(../src/img/slide2.jpeg);">
             </li>
             <li class="slide color-2" style="background-image:url(../src/img/slide3.jpg);">
-              <h1>Parte interna de uma de nossas franquias</h1>
             </li>
           </ol>
           <span class="nav fa fa-chevron-left fa-1x" id="left"></span>
@@ -93,7 +89,7 @@
           <h1>Reservas</h1>
           <div class="reservationContainer">
             <form id="reservation-form">
-              <h3 class="form-text mb-3">Restaurante</h3>
+              <h3 class="form-text mb-3 rFormTittle">Restaurante</h3>
               <div class="form-group">
                 <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required  />
               </div>
@@ -109,7 +105,7 @@
               <div class="form-group">
                 <input type="time" name="name" id="name" class="form-control" placeholder="Hora da Reserva" required/>
               </div>
-              <h6 class="form-text mb-2">12:30h - 14:30h / 19:30h - 23:30h</h6>
+              <h6 class="form-text mb-2 rFormDes">12:30h - 14:30h / 19:30h - 23:30h</h6>
               <div class="form-group">
                 <textarea  type="text" id="comment" name="comment" rows="2" class="form-control md-textarea mt-4" placeholder="Pedido especial"></textarea>
               </div>
@@ -118,7 +114,7 @@
               </div>
             </form>
             <form id="reservation-form">
-              <h3 class="form-text mb-3">Enoturismo</h3>
+              <h3 class="form-text mb-3 rFormTittle">Enoturismo</h3>
               <div class="form-group">
                 <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required  />
               </div>
@@ -134,7 +130,7 @@
               <div class="form-group">
                 <input type="time" name="name" id="name" class="form-control" placeholder="Hora da Reserva" required/>
               </div>
-              <h6 class="form-text mb-2">09:30h / 16:30h</h6>
+              <h6 class="form-text mb-2 rFormDes">09:30h / 16:30h</h6>
               <div class="form-group">
                 <textarea  type="text" id="comment" name="comment" rows="2" class="form-control md-textarea mt-4" placeholder="Pedido especial"></textarea>
               </div>
@@ -148,28 +144,28 @@
           <hr class="tittle2">
           <h1>Serviços</h1>
           <section id="services" class="services">
-            <a class="service" href="menu.index">
+            <a class="service" href="menu/">
               <div class="icon"><i class="fa-solid fa-utensils"></i></div>
               <div class="desc">
                 <h2>Menu</h2>
                 <p>O Menu do <b>Velho Mundo</b> vai lhe proporcionar uma viagem ao vinho português e uma experiência única de alta cozinha e apresentação gourmetizada!</p>
               </div>
             </a>
-            <a class="service" href="carta&drinks.index">
+            <a class="service" href="carta&drinks/">
               <div class="icon"><i class="fa-solid fa-wine-bottle"></i></div>
               <div class="desc">
                 <h2>Carta de Vinhos & Drinks</h2>
                 <p>Uma seleção dos melhores vinhos portugueses de várias regiões do país e drinks sensasionais a base de vinho!</p>
               </div>
             </a>
-            <a class="service" href="degustacao.index">
+            <a class="service" href="degustacao/">
               <div class="icon"><i class="fa-solid fa-wine-glass"></i></div>
               <div class="desc">
                 <h2>Degustações</h2>
                 <p>A degustação de vinhos é a análise sensorial do vinho, dados mostram que essa prática é realizada desde o século XIV. Venha degustar os melhores vinhos portugueses connosco!</p>
               </div>
             </a>
-            <a class="service" href="enoturismo.index">
+            <a class="service" href="enoturismo/">
               <div class="icon"><img src="../src/img/eno.png" width="36"></div>
               <div class="desc">
                 <h2>Enoturismo</h2>
@@ -177,28 +173,7 @@
               </div>
             </a>
           </section>
-          <!--
-          <div class="ementa">
-            <div id="ementaImg">
-              <img src="../src/img/Ementa/Page2.jpeg" alt="" width="750">
-              <img src="../src/img/Ementa/Page3.jpeg" alt="" width="750">
-              <img src="../src/img/Ementa/Page4.jpeg" alt="" width="750">
-              <img src="../src/img/Ementa/Page5.jpeg" alt="" width="750">
-            </div>
-          </div>
         </div>
-        <div id="vinhosContent" class="vinhosCantent cnt">
-          <hr class="tittle">
-          <h1>Vinhos</h1>
-          <h5>Nossos vinhos especiais.</h5>
-          <div class="vinhos">
-            <div id="vinhosImg">
-              <img src="../src/img/Carta de Vinho/Page2.jpeg" alt="" width="750">
-              <img src="../src/img/Carta de Vinho/Page3.jpeg" alt="" width="750">
-            </div>
-          </div>
-        </div>
-        -->
       </div>
       <div id="contactsContent" class="contactsContent cnt1">
         <hr class="tittle1">
@@ -254,12 +229,26 @@
           <p>4470-090 Porto - Portugal</p>
         </div>
         <div class="footerContact">
-          <a href="mailto:r.velhomundo@gmail.com">Email: r.velhomundo@gmail.com</a>
+          <a href="#r.velhomundo@gmail.com">Email: r.velhomundo@gmail.com</a>
           <p>|</p>
           <a href="tel:+351938249891">Tel.: +351 938 249 891</a>
         </div>
+        <div class="footerSocial">
+          <a href="#instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <p>@R.VelhoMundo</p>
+          </a>
+          <a href="#facebook">
+            <i class="fa-brands fa-facebook"></i>
+            <p>R.VelhoMundo</p>
+          </a>
+          <a href="#tiktok">
+            <i class="fa-brands fa-tiktok"></i>
+            <p>VM100%Português</p>
+          </a>
+        </div>
         <div class="footerLinks">
-          <a href="politicas.html">Política de Privacidade</a>
+          <a href="politicas/">Política de Privacidade</a>
           <p>|</p>
           <a href="https://www.livroreclamacoes.pt/" target="_blank">Livro de Reclamações</a>
         </div>
@@ -272,6 +261,7 @@
     </div>
   </footer>
   <script src="../src/components/main.js"></script>
+  <script src="../src/components/loading.js"></script>
   <script src="../src/components/agenda.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "A Pompadour";
+  src: url(../fonts/a_pompadour/02_APompadourTextSample.ttf) format("truetype");
+}
 #slide-window {
   position:relative;
   width:100%;
@@ -49,11 +53,14 @@
 }
 .slide h1 {
   z-index: 9999999;
-  font-size: 50px;
-  color: #fff;
+  font-size: 4rem;
+  font-family: "A Pompadour", sans-serif;
+  color: #000000f1;
+
   margin-top: 50px;
-  margin-left: -200px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-left: -780px;
+  width: 25%;
+  text-align: left;
 }
 .alive { 
   visibility:visible; 

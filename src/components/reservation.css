@@ -120,3 +120,11 @@ button{
   border-radius:2px;
   transform: scale(1.03);
 }
+
+.rFormTittle {
+  color: #1e262d;
+  font-size: 18px;
+}
+.rFormDes {
+  font-size: 14px;
+}
