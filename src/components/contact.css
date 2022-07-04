@@ -8,7 +8,14 @@
 .contactsContent p {
   text-align: center;
 }
-
+@media (max-width: 650px) {
+  .contactForm {
+    width: 80% !important;
+  }
+  #message {
+    height: 80px !important;
+  }
+}
 .contactForm {
   display: flex;
   flex-direction: column;

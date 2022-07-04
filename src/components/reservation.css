@@ -1,3 +1,9 @@
+@media (max-width: 650px) {
+  #reservationContent {
+    width: 90% !important;
+  }
+}
+
 #reservationContent {
   display: flex;
   align-items: center;
