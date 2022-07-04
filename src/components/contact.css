@@ -1,0 +1,80 @@
+.contactsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.contactsContent p {
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#contact-form {
+  width: 90%;
+}
+#name,
+#email,
+#subject {
+  height: 50px;
+}
+#message {
+  height: 200px;
+}
+
+.contact-button{
+  display:block;
+  width:100%;
+  padding:1.2rem 5.2rem;
+  background: #1e262d;
+  color: #fff;
+  border-radius:0.4rem;
+  cursor:pointer;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  border: 2px solid transparent;
+}
+.contact-button{
+  transition: all 0.125s ease-out 0s;
+}
+
+.contact-button:hover{
+  background-color:#fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+  border: 2px solid #1e262d;
+  color:#1e262d;
+  border-radius:2px;
+  transform: scale(1.03);
+}
+.mapouter {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: right;
+  height: auto;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  width: 100%;
+}
+.map {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/components/main.css">
+  <link rel="stylesheet" href="../src/components/slider.css">
+  <link rel="stylesheet" href="../src/components/reservation.css">
+  <link rel="stylesheet" href="../src/components/services.css">
+  <link rel="stylesheet" href="../src/components/contact.css">
+  <link rel="stylesheet" href="../src/components/menu.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Restaurant</title>
+</head>
+<body id="body">
+  <header>
+    <div class="header">
+      <div class="logo">
+        <a href="./"><img id="logoImg" src="../src/img/logo-light-no-bg.png" alt="logo" width="320" /></a>
+      </div>
+      <div class="topMenu">
+        <ul>
+          <li class="navMenu"><a class="navLink" href="#home">Home</a></li>
+          <li class="navMenu"><a class="navLink" href="#aboutContent">Sobre</a></li>
+          <li class="navMenu"><a class="navLink" href="#reservationContent">Reservas</a></li>
+          <li class="navMenu"><a class="navLink" href="#servicesContent">Serviços</a></li>
+          <li class="navMenu"><a class="navLink" href="#contactsContent">Contacto</a></li>
+        </ul>
+        <div class="idioma">
+          <ul>
+            <li><a href="../en/">EN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <input id="toggle" type="checkbox"></input>
+    <label for="toggle" class="hamburger">
+      <div class="top-bun" id="bar1"></div>
+      <div class="meat" id="bar2"></div>
+      <div class="bottom-bun" id="bar3"></div>
+    </label>
+    <div class="nav">
+      <div class="nav-wrapper">
+        <nav>
+          <a class="navLink burg" href="#home">Home</a>
+          <a class="navLink burg" href="#aboutContent">Sobre</a>
+          <a class="navLink burg" href="#reservationContent">Reservas</a>
+          <a class="navLink burg" href="#servicesContent">Serviços</a>
+          <a class="navLink burg" href="#contactsContent">Contacto</a>
+          <a class="navLink burg" href="/login/">Login</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="home" class="container">
+      <div id="homeContent" class="homeContent">
+        <img id="logoHome" src="../src/img/logo-light-no-bg.png" alt="logo"/>
+      </div>
+      <div class="sliders">
+        <div class="sliderBG"></div>
+         <div id="slide-window">
+          <ol id="slides" start="1">
+            <li class="slide color-0 alive" style="background-image:url(https://i0.wp.com/portugalconfidential.com/wp-content/uploads/2019/07/Mito-Porto-Beef-Tartare-feature.jpg?fit=1400%2C700&ssl=1);">
+              <h1>Molho suspeito, com comida de pinto</h1>
+            </li>
+            <li class="slide color-1" style="background-image:url(https://vistarestaurante.com/media/vista-restaurante-imageLink_mg_0180821.jpg);">
+              <h1>Parte externa da nossa sede principal</h1>
+            </li>
+            <li class="slide color-2" style="background-image:url(https://assets.bonappetit.com/photos/610aa6ddc50e2f9f7c42f7f8/master/pass/Savage-2019-top-50-busy-restaurant.jpg);">
+              <h1>Parte interna de uma de nossas franquias</h1>
+            </li>
+          </ol>
+          <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
+          <span class="nav fa fa-chevron-right fa-3x" id="right"></span>
+        </div>
+      </div>
+      <div class="content">
+        <div id="aboutContent" class="aboutContent cnt2">
+          <hr class="tittle2">
+          <h1>Sobre nós</h1>
+          <h5>Faça já a sua reserva.</h5>
+        </div>
+        <div id="reservationContent" class="reservationContent cnt1">
+          <hr class="tittle1">
+          <h1>Reservas</h1>
+          <div class="reservationContainer">
+            <form id="reservation-form">
+              <h3 class="form-text mb-3">Restaurante</h3>
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required  />
+              </div>
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Email" required  />
+              </div>
+              <div class="form-group">
+                <input type="number" name="how-many-people" id="how-many-people" class="form-control" placeholder="Numero de Pessoas" required />
+              </div>
+              <div class="form-group">
+                <input type="date" name="name" id="name" class="form-control" placeholder="Data da Reserva" required />
+              </div>
+              <div class="form-group">
+                <input type="time" name="name" id="name" class="form-control" placeholder="Hora da Reserva" required/>
+              </div>
+              <h6 class="form-text mb-2">12:30h - 14:30h / 19:30h - 23:30h</h6>
+              <div class="form-group">
+                <textarea  type="text" id="comment" name="comment" rows="2" class="form-control md-textarea mt-4" placeholder="Pedido especial"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Fazer Reserva</button>
+              </div>
+            </form>
+            <form id="reservation-form">
+              <h3 class="form-text mb-3">Enoturismo</h3>
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required  />
+              </div>
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Email" required  />
+              </div>
+              <div class="form-group">
+                <input type="number" name="how-many-people" id="how-many-people" class="form-control" placeholder="Numero de Pessoas" required />
+              </div>
+              <div class="form-group">
+                <input type="date" name="name" id="name" class="form-control" placeholder="Data da Reserva" required />
+              </div>
+              <div class="form-group">
+                <input type="time" name="name" id="name" class="form-control" placeholder="Hora da Reserva" required/>
+              </div>
+              <h6 class="form-text mb-2">09:30h / 16:30h</h6>
+              <div class="form-group">
+                <textarea  type="text" id="comment" name="comment" rows="2" class="form-control md-textarea mt-4" placeholder="Pedido especial"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Fazer Reserva</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="servicesContent" class="servicesCantent cnt2">
+          <hr class="tittle2">
+          <h1>Serviços</h1>
+          <section id="services" class="services">
+            <a class="service" href="menu.index">
+              <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+              <div class="desc">
+                <h2>Menu</h2>
+                <p>Cremação destinada a diversos animais de estimação sem direito á recolha das cinzas.</p>
+              </div>
+            </a>
+            <a class="service" href="carta&drinks.index">
+              <div class="icon"><i class="fa-solid fa-wine-bottle"></i></div>
+              <div class="desc">
+                <h2>Carta de Vinhos & Drinks</h2>
+                <p>Cremação destinada ao seu companheiro com direito á recolha das cinzas. Emissão de certificado oficial de cremação.</p>
+              </div>
+            </a>
+            <a class="service" href="degustacao.index">
+              <div class="icon"><i class="fa-solid fa-wine-glass"></i></div>
+              <div class="desc">
+                <h2>Degustações</h2>
+                <p>Sepultamento do companheiro no jardim memorial originando uma árvore.</p>
+              </div>
+            </a>
+            <a class="service" href="enoturismo.index">
+              <div class="icon"><img src="../src/img/eno.png" width="36"></div>
+              <div class="desc">
+                <h2>Enoturismo</h2>
+                <p>Cerimónia personalizada em memória do companheiro.</p>
+              </div>
+            </a>
+          </section>
+          <!--
+          <div class="ementa">
+            <div id="ementaImg">
+              <img src="../src/img/Ementa/Page2.jpeg" alt="" width="750">
+              <img src="../src/img/Ementa/Page3.jpeg" alt="" width="750">
+              <img src="../src/img/Ementa/Page4.jpeg" alt="" width="750">
+              <img src="../src/img/Ementa/Page5.jpeg" alt="" width="750">
+            </div>
+          </div>
+        </div>
+        <div id="vinhosContent" class="vinhosCantent cnt">
+          <hr class="tittle">
+          <h1>Vinhos</h1>
+          <h5>Nossos vinhos especiais.</h5>
+          <div class="vinhos">
+            <div id="vinhosImg">
+              <img src="../src/img/Carta de Vinho/Page2.jpeg" alt="" width="750">
+              <img src="../src/img/Carta de Vinho/Page3.jpeg" alt="" width="750">
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+      <div id="contactsContent" class="contactsContent cnt1">
+        <hr class="tittle1">
+        <h1>Contactos-nos</h1>
+          <div class="contactForm">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="name" name="name" class="form-control mt-5" placeholder="Nome">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="email" name="email" class="form-control mt-5" placeholder="E-mail">
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="subject" name="subject" class="form-control mt-4" placeholder="Assunto">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea mt-4" placeholder="Mensagem"></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="form-group">
+              <button type="submit" id="contact" class="contact-button mt-4">Enviar</button>
+            </div>
+            <div class="status"></div>
+          </div>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe class="map" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Rua%20de%20Mouzinho%20da%20Silveira,%20115&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footerContent">
+      <a class="footerLogo" href="./"><img src="../src/img/logo-light-no-bg.png" alt="logo" width="360" /></a>
+      <div class="footerInfor">
+        <div class="footerAddress">
+          <p>Rua de Mouzinho da Silveira, 115</p>
+          <p>4470-090 Porto - Portugal</p>
+        </div>
+        <div class="footerContact">
+          <a href="mailto:r.velhomundo@gmail.com">Email: r.velhomundo@gmail.com</a>
+          <p>|</p>
+          <a href="tel:+351938249891">Tel.: +351 938 249 891</a>
+        </div>
+        <div class="footerLinks">
+          <a href="politicas.html">Política de Privacidade</a>
+          <p>|</p>
+          <a href="https://www.livroreclamacoes.pt/" target="_blank">Livro de Reclamações</a>
+        </div>
+        <hr class="footer">
+        <div class="footerCopyright">
+          <p>©2022 - Velho Mundo. Todos os direitos reservados. Web development by <a href="https://gustavofalcao1.github.io/" target="_blank">Geek Smart</a>.</p>
+          <p>Este site está protegido por <a href="https://www.google.com/recaptcha/about/" target="_blank">reCAPTCHA</a>, aplicando-se a <a href="https://policies.google.com/privacy" target="_blank">Politica de Privacidade</a> e <a href="https://policies.google.com/terms" target="_blank">Termos e Condições</a> da Google.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../src/components/main.js"></script>
+  <script src="../src/components/agenda.js"></script>
+</body>
+</html>
