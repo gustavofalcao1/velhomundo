@@ -65,7 +65,7 @@
 .alive { 
   visibility:visible; 
 }
-.nav { 
+.navg { 
   position:absolute; 
   z-index:99999; 
   top:50%; 
@@ -78,7 +78,7 @@
   border-radius: 10px;
   padding: 8px 10px;
 }
-.nav:hover { 
+.navg:hover { 
   opacity:1.0; 
 }
 #left { 

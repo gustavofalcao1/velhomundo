@@ -224,7 +224,6 @@ footer {
 .footerLogo img {
   filter: invert(100%);
 }
-
 .footerInfor,
 .footerLinks,
 .footerAddress,
@@ -319,6 +318,31 @@ hr.footer {
   }
   .reservationContainer {
     flex-direction: column !important;
+  }
+  .aboutContent h4 {
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: justify;
+  }
+  #contentMenu img {
+    width: 100%;
+  }
+  #contentCarta img {
+    width: 100%;
+  }
+  #contentDeg img {
+    width: 100%;
+  }
+  #contentEno img {
+    width: 100%;
+  }
+  .bar {
+    display: none;
+  }
+  .footerContact,
+  .footerLinks,
+  .footerSocial {
+    flex-direction: column;
   }
 }
 
