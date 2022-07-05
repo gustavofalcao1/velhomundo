@@ -115,32 +115,32 @@ $(window).on("scroll", function() {
     document.getElementById("bar2").style.backgroundColor='#fff';
     document.getElementById("bar3").style.backgroundColor='#fff';
   }
-  if($(window).scrollTop() > 170) {
+  if($(window).scrollTop() > 330) {
     document.getElementById("bar1").style.backgroundColor='#1e262d';
     document.getElementById("bar2").style.backgroundColor='#1e262d';
     document.getElementById("bar3").style.backgroundColor='#1e262d';
   } 
-  if($(window).scrollTop() > 430) {
+  if($(window).scrollTop() > 840) {
     document.getElementById("bar1").style.backgroundColor='#fff';
     document.getElementById("bar2").style.backgroundColor='#fff';
     document.getElementById("bar3").style.backgroundColor='#fff';
   }
-  if($(window).scrollTop() > 660) {
+  if($(window).scrollTop() > 2830) {
     document.getElementById("bar1").style.backgroundColor='#1e262d';
     document.getElementById("bar2").style.backgroundColor='#1e262d';
     document.getElementById("bar3").style.backgroundColor='#1e262d';
   } 
-  if($(window).scrollTop() > 1420) {
+  if($(window).scrollTop() > 4560) {
     document.getElementById("bar1").style.backgroundColor='#fff';
     document.getElementById("bar2").style.backgroundColor='#fff';
     document.getElementById("bar3").style.backgroundColor='#fff';
   }
-  if($(window).scrollTop() > 1460) {
+  if($(window).scrollTop() > 5980) {
     document.getElementById("bar1").style.backgroundColor='#1e262d';
     document.getElementById("bar2").style.backgroundColor='#1e262d';
     document.getElementById("bar3").style.backgroundColor='#1e262d';
   }
-  if($(window).scrollTop() > 3100) {
+  if($(window).scrollTop() > 20000) {
     document.getElementById("bar1").style.backgroundColor='#fff';
     document.getElementById("bar2").style.backgroundColor='#fff';
     document.getElementById("bar3").style.backgroundColor='#fff';
