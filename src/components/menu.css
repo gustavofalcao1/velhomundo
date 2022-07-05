@@ -34,6 +34,7 @@
 #bar2,
 #bar3 {
   transition: all 0.1s ease-in-out;
+  box-shadow: 1px 1px 2px #1e262df2;
 }
 
 /**
