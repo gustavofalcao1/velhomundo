@@ -1,5 +1,6 @@
 .burg-menu {
   position: absolute;
+  z-index: 999999999999999;
 }
 
 #toggle {
@@ -18,7 +19,6 @@
   margin-top: -45px;
   width: 2em;
   height: 45px;
-  z-index: 999999999999999;
 }
 
 .hamburger div {

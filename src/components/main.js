@@ -107,4 +107,3 @@ function DoIt(target) {
   $.global.item = target; 
   $('#count').html($.global.item+1);
 }
-
