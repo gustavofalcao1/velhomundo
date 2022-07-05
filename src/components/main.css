@@ -127,6 +127,7 @@ main {
 
 #logoHome {
   width: 80%;
+  filter: brightness(100%);
 }
 
 .container {
@@ -322,7 +323,7 @@ hr.footer {
   .aboutContent h4 {
     font-size: 1.2rem;
     width: 80%;
-    text-align: justify;
+    text-align: center;
   }
   #contentMenu img {
     width: 100%;
