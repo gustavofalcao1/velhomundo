@@ -1,6 +1,6 @@
-# 🌍 Velho Mundo
+# 🍷 Velho Mundo
 
-**Velho Mundo** is an interactive and visually engaging web-based project showcasing geographical data, historical insights, and cultural narratives. This educational and exploratory application is built using modern web technologies, providing users with an immersive experience as they explore diverse content related to historical geography.
+**Velho Mundo** is a beautifully designed website created specifically for a restaurant located in Porto, Portugal. It showcases an exquisite menu focused on wine-based dishes and provides rich content dedicated to wine tourism experiences. Immerse yourself in the culture of Porto through engaging visual storytelling and delightful gastronomic offerings.
 
 🌐 **[Live Demo](https://gustavofalcao1.github.io/velhomundo/)**
 
@@ -8,10 +8,10 @@
 
 ## ✨ Features
 
-- 🗺️ Interactive geographical maps
-- 📜 Historical narratives and cultural insights
-- 🎨 Visually appealing, responsive design
-- 📖 Educational content tailored for exploration
+- 🍽️ Exclusive wine-focused culinary menu
+- 🍷 Comprehensive wine tourism experiences
+- 🎨 Visually appealing and responsive design
+- 📍 Rich local content showcasing Porto’s wine culture
 
 ---
 
@@ -62,4 +62,3 @@ This project is licensed under the **MIT License**.
 [Project Repository](https://github.com/gustavofalcao1/velhomundo)
 
 ---
-
